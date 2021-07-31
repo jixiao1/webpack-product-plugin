@@ -8,5 +8,23 @@
   },
   "keywords": [],
   "author": "jixiao",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "style-loader": "^3.2.1"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1  safari version"
+    ],
+    "production": [
+      ".2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
 }
